@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <h1>Home page</h1>
+    </main>
+  </body>
+</html><!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web giới thiệu bản thân">
+    <title>Trang cá nhân | Hồ sơ của tôi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="home">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="Logo cá nhân">
+                <span>MY PROFILE</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="#about">Giới thiệu</a>
+                <a href="#education">Giáo dục</a>
+                <a href="#abilities">Năng lực</a>
+                <a href="#plan">Kế hoạch</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Mở menu">
+                ☰
+            </button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="hero" id="about">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="subtitle">XIN CHÀO!</p>
+
+                    <h1>
+                        Tôi là <span>Nguyễn Văn A</span>
+                    </h1>
+
+                    <h2>Sinh viên Công nghệ thông tin</h2>
+
+                    <p>
+                        Tôi là một người yêu thích công nghệ, thiết kế website
+                        và luôn mong muốn học hỏi những kiến thức mới để phát
+                        triển bản thân.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Liên hệ với tôi
+                        </a>
+
+                        <a href="#plan" class="btn btn-outline">
+                            Xem kế hoạch
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="images/avatar.jpg"
+                        alt="Ảnh đại diện cá nhân"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+        <section class="section" id="education">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>HÀNH TRÌNH HỌC TẬP</p>
+                    <h2>Nền tảng giáo dục</h2>
+                </div>
+
+                <div class="education-table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Thời gian</th>
+                                <th>Nơi học tập</th>
+                                <th>Chuyên ngành</th>
+                                <th>Kết quả</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>2021 - 2024</td>
+                                <td>Trường THPT</td>
+                                <td>Khối tự nhiên</td>
+                                <td>Tốt</td>
+                            </tr>
+
+                            <tr>
+                                <td>2024 - Nay</td>
+                                <td>Trường Đại học</td>
+                                <td>Công nghệ thông tin</td>
+                                <td>Đang học</td>
+                            </tr>
+
+                            <tr>
+                                <td>2025 - Nay</td>
+                                <td>Các khóa học trực tuyến</td>
+                                <td>Web Development</td>
+                                <td>Đang phát triển</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ABILITIES ================= -->
+        <section class="section section-light" id="abilities">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>ĐIỂM MẠNH</p>
+                    <h2>Năng lực cá nhân</h2>
+                </div>
+
+                <div class="ability-grid">
+
+                    <div class="ability-card">
+                        <div class="ability-icon">HTML</div>
+                        <h3>HTML</h3>
+                        <p>
+                            Có khả năng xây dựng cấu trúc trang web bằng
+                            HTML5 và sử dụng các thẻ semantic.
+                        </p>
+                    </div>
+
+                    <div class="ability-card">
+                        <div class="ability-icon">CSS</div>
+                        <h3>CSS</h3>
+                        <p>
+                            Biết thiết kế giao diện, bố cục, màu sắc,
+                            animation và responsive.
+                        </p>
+                    </div>
+
+                    <div class="ability-card">
+                        <div class="ability-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Có thể xử lý sự kiện, kiểm tra form và tạo
+                            các chức năng tương tác cho website.
+                        </p>
+                    </div>
+
+                    <div class="ability-card">
+                        <div class="ability-icon">TEAM</div>
+                        <h3>Làm việc nhóm</h3>
+                        <p>
+                            Có tinh thần trách nhiệm và khả năng phối hợp
+                            với các thành viên trong nhóm.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PLAN ================= -->
+        <section class="section" id="plan">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>MỤC TIÊU TƯƠNG LAI</p>
+                    <h2>Kế hoạch phát triển bản thân</h2>
+                </div>
+
+                <div class="plan-list">
+
+                    <div class="plan-item">
+                        <span class="plan-number">01</span>
+
+                        <div>
+                            <h3>Hoàn thiện HTML & CSS</h3>
+                            <p>
+                                Nắm vững HTML5, CSS3, Flexbox, Grid và
+                                thiết kế responsive.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="plan-item">
+                        <span class="plan-number">02</span>
+
+                        <div>
+                            <h3>Nâng cao JavaScript</h3>
+                            <p>
+                                Học DOM, Event, Array, Object, API và
+                                xây dựng các website có tính tương tác.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="plan-item">
+                        <span class="plan-number">03</span>
+
+                        <div>
+                            <h3>Xây dựng dự án thực tế</h3>
+                            <p>
+                                Hoàn thành nhiều dự án cá nhân để nâng cao
+                                kỹ năng lập trình web.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="plan-item">
+                        <span class="plan-number">04</span>
+
+                        <div>
+                            <h3>Phát triển kỹ năng mềm</h3>
+                            <p>
+                                Cải thiện giao tiếp, thuyết trình,
+                                làm việc nhóm và quản lý thời gian.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section section-light" id="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>KẾT NỐI</p>
+                    <h2>Liên hệ với tôi</h2>
+                </div>
+
+                <div class="contact-wrapper">
+
+                    <div class="contact-info">
+
+                        <h3>Thông tin liên hệ</h3>
+
+                        <p>
+                            Nếu bạn muốn trao đổi hoặc liên hệ với tôi,
+                            hãy gửi thông tin qua biểu mẫu bên cạnh.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>📧 Email:</strong>
+                                nguyenvana@email.com
+                            </li>
+
+                            <li>
+                                <strong>📱 Điện thoại:</strong>
+                                0123 456 789
+                            </li>
+
+                            <li>
+                                <strong>📍 Địa chỉ:</strong>
+                                Việt Nam
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <form id="contactForm" class="contact-form">
+
+                        <div class="form-group">
+                            <label for="name">Họ và tên</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Nhập họ và tên"
+                            >
+                            <small class="error" id="nameError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@email.com"
+                            >
+                            <small class="error" id="emailError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Nội dung</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Nhập nội dung liên hệ..."
+                            ></textarea>
+                            <small class="error" id="messageError"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Gửi liên hệ
+                        </button>
+
+                        <p id="formMessage" class="form-message"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <h3>MY PROFILE</h3>
+                <p>
+                    Trang web giới thiệu thông tin cá nhân và
+                    quá trình phát triển bản thân.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about">Giới thiệu</a>
+                <a href="#education">Giáo dục</a>
+                <a href="#abilities">Năng lực</a>
+                <a href="#plan">Kế hoạch</a>
+                <a href="#contact">Liên hệ</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Nguyễn Văn A. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
